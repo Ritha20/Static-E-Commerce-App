@@ -1,10 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
 
 
 function App() {
@@ -12,6 +10,7 @@ function App() {
     <Router>
       <div className="App min-h-screen flex flex-col">
         <Navbar />
+        <HeroSection />
         
       </div>
     </Router>
