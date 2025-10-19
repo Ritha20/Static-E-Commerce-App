@@ -5,7 +5,7 @@ export const babyProducts = [
       name: "Organic Cotton Onesies (3-Pack)",
       price: 24.99,
       category: "Clothing",
-      image: "https://images.unsplash.com/photo-1584839409566-2f429a6fe93c?w=400",
+      image: "./src/images/logo.jpg",
       description: "Soft organic cotton onesies for your little one",
       ageRange: "0-6 months"
     },
