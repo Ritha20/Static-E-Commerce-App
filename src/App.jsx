@@ -3,11 +3,18 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+
+
 function App() {
   return (
-    <>
-    <h1 className="bg-amber-200">This my first react app</h1>
-    </>
+    <Router>
+      <div className="App min-h-screen flex flex-col">
+        <Navbar />
+        
+      </div>
+    </Router>
   );
 }
 
