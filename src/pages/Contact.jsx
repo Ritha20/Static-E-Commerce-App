@@ -48,7 +48,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-800">Phone</h3>
-                  <p className="text-gray-600">+1 (555) 123-BABY</p>
+                  <p className="text-gray-600">+250 788 888 000</p>
                 </div>
               </div>
               
@@ -68,7 +68,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-800">Store Address</h3>
-                  <p className="text-gray-600">123 Parenting Lane<br />Baby City, BC 12345</p>
+                  <p className="text-gray-600">123 Parenting Lane<br />KN 259 ST</p>
                 </div>
               </div>
               
@@ -185,7 +185,7 @@ const Contact = () => {
               
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-pink-500 to-purple-600 text-white py-3 px-6 rounded-lg font-semibold hover:from-pink-600 hover:to-purple-700 transition duration-300 flex items-center justify-center shadow-md hover:shadow-lg"
+                className="w-full bg-purple-600 text-white py-3 px-6 rounded-lg font-semibold hover:from-pink-600 hover:to-purple-700 transition duration-300 flex items-center justify-center shadow-md hover:shadow-lg"
               >
                 <i className="fas fa-paper-plane mr-2"></i>
                 Send Message

@@ -75,7 +75,7 @@ const About = () => {
         </section>
 
         {/* Mission & Values */}
-        <section className="bg-gradient-to-r from-pink-500 to-purple-600 text-white p-8 rounded-xl shadow-lg">
+        <section className="bg-purple-600 text-white p-8 rounded-xl shadow-lg">
           <h2 className="text-2xl font-semibold mb-4 text-center flex items-center justify-center">
             <i className="fas fa-bullseye mr-2"></i>
             Our Mission

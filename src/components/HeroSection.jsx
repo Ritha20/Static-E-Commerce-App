@@ -8,7 +8,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 text-white py-20 relative overflow-hidden">
+    <section className="bg-blue-400 text-white py-20 relative overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-10 left-10 text-4xl">
