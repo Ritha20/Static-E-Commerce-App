@@ -8,8 +8,11 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="bg-blue-400 text-white py-20 relative overflow-hidden">
-      {/* Background pattern */}
+    <section 
+      className="bg-[url('./src/images/baby.jpg')] bg-cover bg-center text-white py-20 relative overflow-hidden"
+      style={{ backgroundSize: 'cover', backgroundPosition: 'center' }} // Fallback for better cross-browser support if needed
+    >
+      {/* Background pattern - optional; remove if you want pure image visibility */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-10 left-10 text-4xl">
           <i className="fas fa-baby-carriage"></i>
@@ -31,13 +34,9 @@ const HeroSection = () => {
         </div>
       </div>
       
-      <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
-        <div className="flex justify-center mb-6">
-          <div className="bg-white bg-opacity-20 rounded-full p-6">
-            <i className="fas fa-baby text-5xl"></i>
-          </div>
-        </div>
-        <h1 className="text-5xl font-bold mb-6 text-white drop-shadow-lg">
+      <div className="max-w-7xl mx-auto px-4 text-center relative z-10 pt-12">
+        
+        <h1 className="text-5xl font-bold mb-6 text-white drop-shadow-lg mt-8">
           Welcome to BabyStore!
         </h1>
         <p className="text-xl mb-8 max-w-2xl mx-auto text-white font-medium drop-shadow">
