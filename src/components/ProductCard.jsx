@@ -5,14 +5,14 @@ const ProductCard = ({ product, onAddToCart }) => {
 
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-1 border border-gray-200">
-      {/* Image - REMOVED THE CATEGORY LABEL FROM HERE */}
+      
       <div className="relative">
         <img 
           src={product.image} 
           alt={product.name}
           className="w-full h-48 object-cover"
         />
-        {/* REMOVE THE ENTIRE div WITH absolute positioning that contains the category label */}
+      
       </div>
       
       <div className="p-4">

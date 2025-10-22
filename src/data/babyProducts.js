@@ -1,3 +1,14 @@
+import socks from '../images/socks.jpg';
+import flannelCloth from '../images/flannel cloth.jpg';
+import teethToys from '../images/teething toys.jpg';
+import BabyBottle from '../images/baby bottle.webp';
+import Silicon from '../images/silicon.jpg';
+import Light from '../images/light.jpg';
+import BathSet from '../images/bath set.webp';
+import soap from '../images/soap.webp';
+import monitor from '../images/monitor.webp';
+import babyBag from '../images/baby bag.webp';
+
 export const babyProducts = [
     // Clothing Category
     {
@@ -5,16 +16,16 @@ export const babyProducts = [
       name: "Organic Cotton Onesies (3-Pack)",
       price: 24.99,
       category: "Clothing",
-      image: "/src/images/socks.jpg",
+      image: socks,
       description: "Soft organic cotton onesies for your little one",
       ageRange: "0-6 months"
     },
     {
       id: 2,
-      name: "Flannel suit",
+      name: "Flannel cloth",
       price: 32.99,
       category: "Clothing",
-      image: "/src/images/flannel cloth.jpg",
+      image: flannelCloth,
       description: "Adorable romper set for special occasions",
       ageRange: "6-12 months"
     },
@@ -31,10 +42,10 @@ export const babyProducts = [
     },
     {
       id: 4,
-      name: "Teething Rings Set",
+      name: "Teething Toys",
       price: 15.99,
       category: "Toys",
-      image: "/src/images/teething toys.jpg",
+      image: teethToys,
       description: "Safe silicone teething rings for soothing gums",
       ageRange: "3-12 months"
     },
@@ -45,7 +56,7 @@ export const babyProducts = [
       name: "Baby Bottle Set",
       price: 29.99,
       category: "Feeding",
-      image: "/src/images/baby bottle.webp",
+      image: BabyBottle,
       description: "BPA-free baby bottle set with different sizes",
       ageRange: "0-12 months"
     },
@@ -54,7 +65,7 @@ export const babyProducts = [
       name: "Silicone Bibs (4-Pack)",
       price: 19.99,
       category: "Feeding",
-      image: "/src/images/silicon.jpg",
+      image: Silicon,
       description: "Easy-to-clean silicone bibs for messy eaters",
       ageRange: "6-24 months"
     },
@@ -74,7 +85,7 @@ export const babyProducts = [
       name: "Nursery Night Light",
       price: 25.99,
       category: "Nursery",
-      image: "/src/images/light.jpg",
+      image: Light,
       description: "Soft glow night light with color changing features",
       ageRange: "All ages"
     },
@@ -85,7 +96,7 @@ export const babyProducts = [
       name: "Baby Bath Set",
       price: 34.99,
       category: "Bath & Care",
-      image: "/src/images/bath set.webp",
+      image: BathSet,
       description: "Complete bath time set with gentle products",
       ageRange: "0-24 months"
     },
@@ -94,7 +105,7 @@ export const babyProducts = [
       name: "Baby Care Kit",
       price: 28.99,
       category: "Bath & Care",
-      image: "/src/images/soap.webp",
+      image: soap,
       description: "Essential care items for baby grooming",
       ageRange: "0-12 months"
     },
@@ -105,7 +116,7 @@ export const babyProducts = [
       name: "Baby Monitor",
       price: 89.99,
       category: "Safety",
-      image: "/src/images/monitor.webp",
+      image: monitor,
       description: "HD video baby monitor with night vision",
       ageRange: "All ages"
     },
@@ -114,7 +125,7 @@ export const babyProducts = [
       name: "Outlet Covers (12-Pack)",
       price: 9.99,
       category: "Safety",
-      image: "/src/images/baby bag.webp",
+      image: babyBag,
       description: "Safety bag for mother to carry children",
       ageRange: "0-2years"
     }
