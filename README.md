@@ -41,7 +41,7 @@ It is a modern e-commerce platform specializing in baby products. The website fe
 ### Prerequisites
 - Node.js 
 - npm
-## Deployed link: static-e-commerce-app.vercel.app
+## Deployed link: https://static-e-commerce-app.vercel.app/
 
 ### Step-by-Step Setup
 
