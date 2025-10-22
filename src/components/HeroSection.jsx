@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import babyImage from '../images/baby.jpg';  
 
 const HeroSection = () => {
   const navigate = useNavigate();
@@ -9,8 +10,13 @@ const HeroSection = () => {
 
   return (
     <section 
-      className="bg-[url('./src/images/baby.jpg')] bg-cover bg-center text-white py-20 relative overflow-hidden"
-      style={{ backgroundSize: 'cover', backgroundPosition: 'center' }} // Fallback for better cross-browser support if needed
+      className="text-white py-20 relative overflow-hidden min-h-[500px] flex items-center justify-center"
+      style={{
+        backgroundImage: `url(${babyImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}
     >
     
       <div className="absolute inset-0 opacity-20">
